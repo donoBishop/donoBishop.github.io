@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.top-bar {
+    background-color: #7F00FF;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text {
+    font-size: 25px; /* Adjust the font size as needed */
+    margin-left: 20%;
+}
+
+/* Right text styles */
+.right-text {
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-right: 20%;
+    display: flex;
+}
+
+.about {
+    margin-right: 25%;
+}
+.projects {
+    margin-right: 25%;
+}
+.business {
+    margin-right: 0px;
+}
+.content {
+    /* Adjust padding-top to make space for the fixed top bar */
+    padding-top: 40px; /* Adjust according to your top bar height */
+    /* Add other styles for your content */
+}
+a {
+    color: #FFFFFF; /* Change this to the color you want */
+    text-decoration: none; /* This removes the underline */
+}
+
+a:hover {
+    color: #FFFFFF; /* Change this to the color you want when hovering over the link */
+}
