@@ -40,7 +40,7 @@ body {
 }
 .content {
     /* Adjust padding-top to make space for the fixed top bar */
-    padding-top: 100px; /* Adjust according to your top bar height */
+    /* Adjust according to your top bar height */
     /* Add other styles for your content */
 }
 a {
