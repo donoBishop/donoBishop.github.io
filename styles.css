@@ -40,7 +40,7 @@ body {
 }
 .content {
     /* Adjust padding-top to make space for the fixed top bar */
-    padding-top: 400px; /* Adjust according to your top bar height */
+    padding-top: 40px; /* Adjust according to your top bar height */
     /* Add other styles for your content */
 }
 a {
@@ -50,14 +50,4 @@ a {
 
 a:hover {
     color: #FFFFFF; /* Change this to the color you want when hovering over the link */
-}
-
-.contact {
-    margin-top: 50px;
-    margin-left: 25px;
-}
-
-.Contactinfo {
-    margin-left: 40px;
-    margin-bottom: 10px;
 }
