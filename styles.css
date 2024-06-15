@@ -1,9 +1,81 @@
 body {
     margin: 0;
+    margin-top: 80px;
     font-family: Arial, sans-serif;
 
 }
 
+.intro {
+    text-align: center;
+}
+
+.Intro_header {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.intro_content {
+    margin-top:20px;
+    color: black;
+
+}
+
+.contact {
+    margin-top: 35px;
+    width: fit-content; /* or set a specific width like 50%, 200px, etc. */
+    margin-left: 0;
+    margin-right: 0;
+    flex: 1;
+}
+.Contactinfo{
+    text-align: center;
+    font-weight: bold;
+}
+.contactdiv{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.news {
+  margin-top: 35px;
+  flex: 1;
+  text-align: center;
+
+}
+
+.divider {
+  width: 3px; /* Width of the divider line */
+  background-color: #ccc; /* Grey color */
+  margin: 0 40px; /* Adjust margin as needed */
+  margin-top: 35px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.footer{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.mainb {
+    color: blue; /* Change this to the color you want */
+    text-decoration: none; /* This removes the underline */
+}
+.school{
+    margin-top: 6px;
+}
+
+.news_header{
+    font-weight: bold;
+}
+.newsart{
+    margin-top: 20px;
+}
+/* css for top bar*/
 .top-bar {
     background-color: #4c0099;
     color: #fff;
@@ -43,11 +115,10 @@ body {
     padding-top: 40px; /* Adjust according to your top bar height */
     /* Add other styles for your content */
 }
-a {
+.headerlink {
     color: #FFFFFF; /* Change this to the color you want */
     text-decoration: none; /* This removes the underline */
 }
 
-a:hover {
-    color: #FFFFFF; /* Change this to the color you want when hovering over the link */
-}
+
+/* css for top bar -- end*/
